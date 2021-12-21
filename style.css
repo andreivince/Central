@@ -312,7 +312,7 @@ h1 { /*Mudar o titulo*/
     .about .about-content .left {
         display: flex;
         margin-bottom: 50px;
-        margin-left: -40px;
+        margin-left: -55px;
         width: 100%;
         float: right;
     }
