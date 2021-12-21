@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*Peguei essa fonte do google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+* {
+    margin: 0; /*Esses dois são básicos para todo ínicio de site*/
+    padding: 0;
+    
+}
+
+.navbar { /*Fazendo o style da navbar*/
+    position: fixed;
+    background: crimson;
+    width: 100%;
+    padding: 30px 0; /*Não sei*/
+    font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google e , sans-serif*/
+}
+
+
+.navbar .menu li a { /*Isso é para fazer o style das abas da navegação*/
+    color: white;
+}
+
+.navbar .menu li { /*Isso é para tirar os - do lado das abas de navegação, está sem o "a" porque é edição apenas disso*/
+    list-style: none; /*Tirar os pontos do lado*/
+    display: inline-block; /*Deixar eles um do lado do outro*/
+    font-size: 18px; 
+    font-weight: 500; /*Não sei*/
+    margin-left: 25px; /*Espaçamento entre as fontes*/
+}
+
+h1 { /*Mudar o titulo*/
+    color: white;
+    margin-left: -200px;
+}
+
+.navbar .max-width { 
+    display: flex;
+    align-items: center; /*Alinhar*/
+    justify-content: space-between;
+}
+
+.max-width { 
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.home {
+    display: flex;
+    background: url('Design sem nome (1).png') no-repeat right; /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google*/
+
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px; /*Alinhar o texto*/
+}
+
+.home .home-content .text1 { /*Texto 1 sendo editado*/
+    font-size: 25px;
+    margin-left: -20px;
+}
+.home .home-content .text2 { /*Texto 2 sendo editado*/
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -20px;
+}
+.home .home-content .text3 { /*Texto 3 sendo editado*/
+    font-size: 40px;
+    margin: 5px 0;
+    margin-left: -20px;
+}
+.home .home-content .text3 span { /*Aquele SPAN que comentei*/
+    color: crimson;
+    font-weight: 500;
+}
+
+/*AGORA VAI COMEÇAR O STYLE DO ABOUT*/
+
+.about { /*Espaçamento SEMPRE*/
+    padding: 100px 0;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title { /*Dá uma olhada lá*/
+    position: relative;
+    font-family:'Bebas Neue', cursive;  
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    font-size: 45px;
+}
+
+
+.about .title::before { /*Linhas em cima da palavra*/
+    content: "";
+    position: absolute;
+    width: 180px;
+    bottom: 20px;
+    left: 50%;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+/*Alinhas as coisas*/
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px; /*Fazer a borda*/
+    
+}
+.about .about-content .right {
+    width: 55%;
+    margin-bottom: 300px;
+}
+
+.about .about-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+}
+
+/*Skills Start*/
+
+.skills, .contact{
+    font-family: 'Poppins', sans-serif;
+}
+.skills .title { /*Dá uma olhada lá*/
+    position: relative;
+    font-family:'Bebas Neue', cursive;  
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    font-size: 45px;
+}
+
+.skills .title::before { /*Linhas em cima da palavra*/
+    content: "";
+    position: absolute;
+    width: 180px;
+    bottom: 20px;
+    left: 50%;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.skills .skills-content, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.skills .skills-content .right {
+        width: 55%;
+        margin-right: -55px;
+}
+.skills .skills-content .left {
+    width: 45%;
+}
+
+.skills .skills-content .text1 {
+    font-size: 35px;
+}
+
+/*Alinhando aqueles %*/
+
+.skills .skills-content .right .bars {
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line { /*APARECENDO AS LINHAS DE %*/
+    content: "";
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills .skills-content .right .html::before {
+    width: 90%;
+}
+.skills .skills-content .right .css::before {
+    width: 60%;
+}
+.skills .skills-content .right .js::before {
+    width: 20%;
+}
+
+/*Contact Me*/
+.contact .title { /*Dá uma olhada lá*/
+    position: relative;
+    font-family:'Bebas Neue', cursive;  
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    font-size: 40px;
+}
+
+.contact .title::before { /*Linhas em cima da palavra*/
+    content: "";
+    position: absolute;
+    width: 180px;
+    bottom: 20px;
+    left: 50%;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+/*Isso tudo para stylish o formulario*/
+
+.contact .contact-content .field form {
+    background: crimson;
+    border-radius: 15px;
+    border: 20px;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px 20px;
+    justify-content: center;
+    margin-left: -20px;
+
+}
+
+.contact .contact-content .field form label {
+    font-size: 20px;
+
+}
+
+.contact .contact-content .field form input {
+    padding-bottom: -5px;
+}
+
+.contact .contact-content .field form button {
+    width: 200px;
+    height: 25px;  
+    padding: 1px 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*Responsive Media*/
+@media (max-width: 600px) {
+    .navbar {
+        padding: 0px;
+    }
+
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+    .navbar h1 { /*Fazendo com que ocultasse o titulo*/
+        overflow: hidden;
+        color: transparent;
+    }
+
+    .home .home-content .text1 {
+        font-size: 25px;
+        margin-left: -50px;
+    }
+    .home .home-content .text2 {
+        font-size: 60px;
+        margin-left: -54px;
+    }
+    .home .home-content .text3 {
+        font-size: 40px;
+        margin-left: -50px;
+
+    }
+    .about .about-content .left {
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: -40px;
+        width: 100%;
+        float: right;
+    }
+
+    .about .about-content .right {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .skills .skills-content .left {
+        width: 100%;
+    }
+    .skills .skills-content .left .text1{
+        font-size: 25px;
+    }
+
+    .skills .skills-content .right {
+        width: 100%;
+        margin-bottom: -250px;
+    }
+
+    .contact .title {
+        margin-top: 50px;
+    }
+    .contact .contact-content{
+        margin-bottom: 0px;
+    }
+    
+
+
+
+
+
+
+}
