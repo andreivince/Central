@@ -46,7 +46,7 @@ h1 { /*Mudar o titulo*/
 
 .home {
     display: flex;
-    background: url('Design sem nome (1).png') no-repeat right; /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
+    background: url('./Assets/Design\ sem\ nome\ \(1\).png') no-repeat right; /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
     height: 100vh;
     color: white;
     min-height: 500px;
