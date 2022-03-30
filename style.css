@@ -185,49 +185,18 @@ h1 { /*Mudar o titulo*/
     font-size: 35px;
 }
 
-/*Alinhando aqueles %*/
-
-.skills .skills-content .right .bars {
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info {
+.skills .skills-content .right {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 35%;
+    font-size: 20px;
 }
 
-.skills .skills-content .right span {
-    font-weight: 500;
-    font-size: 18px;
+.skills .skills-content .right li a{
+    text-decoration: none;
+    color: black;
 }
 
-.skills .skills-content .right .line { /*APARECENDO AS LINHAS DE %*/
-    content: "";
-    height: 5px;
-    width: 100%;
-    background: lightgray;
-    position: relative;
-}
-
-.skills .skills-content .right .line::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 80%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-
-.skills .skills-content .right .html::before {
-    width: 90%;
-}
-.skills .skills-content .right .css::before {
-    width: 60%;
-}
-.skills .skills-content .right .js::before {
-    width: 20%;
-}
 
 /*Contact Me*/
 .contact .title { /*Dá uma olhada lá*/
@@ -289,8 +258,9 @@ h1 { /*Mudar o titulo*/
     }
 
     .navbar .menu li a{
-        font-size: 15px;
+        font-size: 13px;
     }
+    
     .navbar h1 { /*Fazendo com que ocultasse o titulo*/
         overflow: hidden;
         color: transparent;
@@ -309,12 +279,13 @@ h1 { /*Mudar o titulo*/
         margin-left: -50px;
 
     }
-    .about .about-content .left {
-        display: flex;
-        margin-bottom: 50px;
-        margin-left: -90px;
-        width: 100%;
-        float: right;
+
+    .about .max-width {
+        padding: 15px;
+    }
+    
+    .about .about-content .left .foto {
+        width: 350px
     }
 
     .about .about-content .right {
@@ -329,10 +300,6 @@ h1 { /*Mudar o titulo*/
         font-size: 25px;
     }
 
-    .skills .skills-content .right {
-        width: 100%;
-        margin-bottom: -250px;
-    }
 
     .contact .title {
         margin-top: 50px;
