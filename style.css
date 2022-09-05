@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*Peguei essa fonte do google fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+
 * {
     margin: 0; /*Esses dois são básicos para todo ínicio de site*/
     padding: 0;
@@ -10,7 +11,7 @@
     position: fixed;
     background: crimson;
     width: 100%;
-    padding: 30px 0; /*Não sei*/
+    padding: 30px 0; 
     font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google e , sans-serif*/
 }
 
@@ -29,7 +30,6 @@
 
 h1 { /*Mudar o titulo*/
     color: white;
-    margin-left: -200px;
 }
 
 .navbar .max-width { 
@@ -44,12 +44,13 @@ h1 { /*Mudar o titulo*/
     margin: auto;
 }
 
+/*Home*/
+
 .home {
     display: flex;
-    background: url('./Assets/Design\ sem\ nome\ \(1\).png') no-repeat right; /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
+    background: rgb(35, 35, 35); /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
     height: 100vh;
     color: white;
-    min-height: 500px;
     font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google*/
 
 }
@@ -230,8 +231,6 @@ h1 { /*Mudar o titulo*/
     width: 100%;
     padding: 20px 20px;
     justify-content: center;
-    margin-left: -20px;
-
 }
 
 .contact .contact-content .field form label {
