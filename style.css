@@ -350,8 +350,12 @@ h1 { /*Mudar o titulo*/
     
 
 
+}
 
-
-
+@media (max-width: 900px) {
+    
+    * {
+        color: pink;
+    }
 
 }
