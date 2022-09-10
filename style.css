@@ -352,10 +352,26 @@ h1 { /*Mudar o titulo*/
 
 }
 
-@media (max-width: 900px) {
+@media (min-width: 500px) {
     
-    * {
-        color: pink;
+
+
+    .about .about-content {
+        flex-direction: column;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+   
+    .trabalhos .content-trabalhos{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
     }
 
 }
