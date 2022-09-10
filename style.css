@@ -282,6 +282,30 @@ h1 { /*Mudar o titulo*/
 }
 
 /*Responsive Media*/
+@media (max-width: 720px) {
+    
+
+
+    .about .about-content {
+        flex-direction: column;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+   
+    .trabalhos .content-trabalhos{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+}
+
 @media (max-width: 600px) {G
     .navbar {
         padding: 0px;
@@ -352,26 +376,4 @@ h1 { /*Mudar o titulo*/
 
 }
 
-@media (min-width: 500px) {
-    
 
-
-    .about .about-content {
-        flex-direction: column;
-    }
-
-    .about .about-content .left {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-   
-    .trabalhos .content-trabalhos{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
-    }
-
-}
