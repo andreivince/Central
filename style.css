@@ -351,7 +351,10 @@ h1 { /*Mudar o titulo*/
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-left: 2%;
+        margin-left: 1%;
+    }
+    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+        margin-left: 4px;
     }
 
 
