@@ -409,7 +409,43 @@ h1 { /*Mudar o titulo*/
     .skills .skills-content .text1 {
         font-size: 35px;
     }
+
+    .max-width-trab .content-trabalhos {
+        max-width: 500px;
+        padding: 0px;
+        margin: 50px;
+        
+    }
+
+
+    .trabalhos .content-trabalhos {
+        width: 100%;
+        
+    }
+
+    .trabalhos .content-trabalhos img {
+        width: 250px;
+        height: 150px;
+
+        
+    }
+    .trabalhos .content-trabalhos .links{
+        margin: 15px;
+        border: 4px solid rgb(43, 43, 43);
+    }
     
+    .contact .contact-content .field form {
+        width: 250px;
+        padding: 20px 20px;
+        margin: auto;
+
+    }
+
+    .max-width-trab .contact-content {
+        max-width: 500px;
+        padding: 0px;
+        margin: 50px;
+    }
 
     
 }
