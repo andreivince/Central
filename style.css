@@ -4,7 +4,8 @@
 * {
     margin: 0; /*Esses dois são básicos para todo ínicio de site*/
     padding: 0;
-    
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -285,7 +286,16 @@ h1 { /*Mudar o titulo*/
 @media screen and (max-width: 700px) {
 
     .navbar {
-        padding: 0px;
+        padding: 0px 7px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .navbar .max-width {
@@ -301,28 +311,43 @@ h1 { /*Mudar o titulo*/
     }
 
 
-    .home .max-width {
-        margin: 0; /*Alinhar o texto*/
-        padding: 0px;
-        margin-left: 15%;
+    .home .max-width-trab {
+        max-width: 750px;
+        padding: 0 30px;
+        margin: 0;
     }
 
     .home .home-content {
         margin-top: 50%;
+        width: 100%;
+        line-height: 1;
+        height: 35;
     }
 
+    
     .home .home-content .text1 { /*Texto 1 sendo editado*/
-        font-size: 15px;
-        margin-left: -20px;
+        font-size: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 2%;
     }
     .home .home-content .text2 { /*Texto 2 sendo editado*/
-        font-size: 50px;
-        margin-left: -20px;
+        font-size: 43px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0%;
+        width: 100%;
+        overflow: visible;
     }
     .home .home-content .text3 { /*Texto 3 sendo editado*/
-        font-size: 30px;
+        font-size: 10px;
         margin: 5px 0;
-        margin-left: -20px; 
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 2%;
     }
 
 
