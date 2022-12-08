@@ -401,7 +401,7 @@ h1 { /*Mudar o titulo*/
         margin-bottom: 40px;
         font-weight: 500;
         padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
-        font-size: 45px;
+        font-size: 42px;
     }
     
     .skills .title::before { /*Linhas em cima da palavra*/
@@ -436,7 +436,7 @@ h1 { /*Mudar o titulo*/
     }
     
     .skills .skills-content .text1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .max-width-trab .content-trabalhos {
