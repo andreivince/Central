@@ -7,8 +7,8 @@
     
 }
 
+
 .navbar { /*Fazendo o style da navbar*/
-    position: fixed;
     background: crimson;
     width: 100%;
     padding: 30px 0; 
@@ -18,6 +18,7 @@
 
 .navbar .menu li a { /*Isso é para fazer o style das abas da navegação*/
     color: white;
+    text-decoration: none;
 }
 
 .navbar .menu li { /*Isso é para tirar os - do lado das abas de navegação, está sem o "a" porque é edição apenas disso*/
@@ -65,7 +66,6 @@ h1 { /*Mudar o titulo*/
 }
 .home .home-content .text2 { /*Texto 2 sendo editado*/
     font-size: 75px;
-    font-weight: 600;
     margin-left: -20px;
 }
 .home .home-content .text3 { /*Texto 3 sendo editado*/
@@ -75,7 +75,6 @@ h1 { /*Mudar o titulo*/
 }
 .home .home-content .text3 span { /*Aquele SPAN que comentei*/
     color: crimson;
-    font-weight: 500;
 }
 
 /*AGORA VAI COMEÇAR O STYLE DO ABOUT*/
@@ -282,47 +281,19 @@ h1 { /*Mudar o titulo*/
 }
 
 /*Responsive Media*/
-@media (max-width: 720px) {
-    
 
+@media (max-width: 700px) {G
 
-    .about .about-content {
-        flex-direction: column;
-    }
-
-    .about .about-content .left {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-   
-    .trabalhos .content-trabalhos{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
-    }
-
-}
-
-@media (max-width: 600px) {G
-    .navbar {
-        padding: 0px;
-    }
-
-    .navbar .menu li a{
-        font-size: 13px;
-    }
+    .navbar .menu li a { 
+        list-style: none; /*Tirar os pontos do lado*/
+        display: inline-block; /*Deixar eles um do lado do outro*/
+        font-size: 5px; 
+        font-weight: 500; /*Não sei*/
+        margin-left: 25px; /*Espaçamento entre as fontes*/    }
     
     .navbar h1 { /*Fazendo com que ocultasse o titulo*/
-        overflow: hidden;
-        color: transparent;
+        font-size: 10px;
     }
-
-
-
-
     
 
     .home .home-content .text1 {
@@ -342,20 +313,32 @@ h1 { /*Mudar o titulo*/
 
 
 
-
-
-    .about .max-width {
-        padding: 15px;
-    }
     
-    .about .about-content .left .foto {
-        width: 350px
-    }
 
+    .about .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .about-content .left{
+        width: 0%;
+    }
+    .about .about-content .left img {
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+        border-radius: 6px; /*Fazer a borda*/
+        
+    }
     .about .about-content .right {
         width: 100%;
-        margin: 0px;
+        margin-bottom: 300px;
     }
+    
+
+
+
 
     .skills .skills-content .left {
         width: 100%;
