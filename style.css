@@ -227,13 +227,23 @@ h1 { /*Mudar o titulo*/
 }
 /*Isso tudo para stylish o formulario*/
 
+.contact .max-width-trab {
+    width: 100%;
+}
+
+.contact .contact-content .field {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
 .contact .contact-content .field form {
     background: crimson;
     border-radius: 15px;
     border: 20px;
     background-position: 20px 20px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 50%;
     padding: 20px 20px;
     justify-content: center;
 }
@@ -284,6 +294,13 @@ h1 { /*Mudar o titulo*/
 .trabalhos .content-trabalhos .links{
     margin: 15px;
     border: 4px solid rgb(43, 43, 43);
+}
+
+.trabalhos .max-width-trab .content-trabalhos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /*Responsive Media*/
