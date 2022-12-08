@@ -442,14 +442,15 @@ h1 { /*Mudar o titulo*/
     .max-width-trab .content-trabalhos {
         max-width: 500px;
         padding: 0px;
-        margin: 50px 75px 50px;
-        
     }
 
 
     .trabalhos .content-trabalhos {
         width: 100%;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .trabalhos .content-trabalhos img {
