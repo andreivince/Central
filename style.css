@@ -282,81 +282,48 @@ h1 { /*Mudar o titulo*/
 
 /*Responsive Media*/
 
-@media (max-width: 700px) {G
+@media screen and (max-width: 700px) {
 
-    .navbar .menu li a { 
-        list-style: none; /*Tirar os pontos do lado*/
-        display: inline-block; /*Deixar eles um do lado do outro*/
-        font-size: 5px; 
-        font-weight: 500; /*Não sei*/
-        margin-left: 25px; /*Espaçamento entre as fontes*/    }
-    
-    .navbar h1 { /*Fazendo com que ocultasse o titulo*/
-        font-size: 10px;
+    .navbar {
+        padding: 0px;
     }
-    
 
-    .home .home-content .text1 {
-        font-size: 25px;
-        margin-left: -50px;
+    .navbar .max-width {
+        padding: 10px;
     }
-    .home .home-content .text2 {
-        font-size: 60px;
-        margin-left: -54px;
-    }
-    .home .home-content .text3 {
-        font-size: 40px;
-        margin-left: -50px;
 
+    .navbar .menu li {
+        font-size: 12px; 
+    } 
+
+    h1 { /*Mudar o titulo*/
+        font-size: 12px;
     }
 
 
-
-
-    
-
-    .about .about-content {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .about .about-content .left{
-        width: 0%;
-    }
-    .about .about-content .left img {
-        height: 20px;
-        width: 20px;
-        object-fit: cover;
-        border-radius: 6px; /*Fazer a borda*/
-        
-    }
-    .about .about-content .right {
-        width: 100%;
-        margin-bottom: 300px;
-    }
-    
-
-
-
-
-    .skills .skills-content .left {
-        width: 100%;
-    }
-    .skills .skills-content .left .text1{
-        font-size: 25px;
+    .home .max-width {
+        margin: 0; /*Alinhar o texto*/
+        padding: 0px;
+        margin-left: 15%;
     }
 
+    .home .home-content {
+        margin-top: 50%;
+    }
 
-    .contact .title {
-        margin-top: 50px;
+    .home .home-content .text1 { /*Texto 1 sendo editado*/
+        font-size: 15px;
+        margin-left: -20px;
     }
-    .contact .contact-content{
-        margin-bottom: 0px;
+    .home .home-content .text2 { /*Texto 2 sendo editado*/
+        font-size: 50px;
+        margin-left: -20px;
     }
-    
+    .home .home-content .text3 { /*Texto 3 sendo editado*/
+        font-size: 30px;
+        margin: 5px 0;
+        margin-left: -20px; 
+    }
 
 
 }
-
-
