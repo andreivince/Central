@@ -57,22 +57,27 @@ h1 { /*Mudar o titulo*/
 
 }
 
-.home .max-width {
+.home .max-width-trab {
     margin: auto 0 auto 40px; /*Alinhar o texto*/
+    width: 100%;
+
+}
+
+.home .home-content {
+    margin-left: 5%;
+    width: 100%;
+    margin-bottom: 15%;
 }
 
 .home .home-content .text1 { /*Texto 1 sendo editado*/
     font-size: 25px;
-    margin-left: -20px;
 }
 .home .home-content .text2 { /*Texto 2 sendo editado*/
     font-size: 75px;
-    margin-left: -20px;
 }
 .home .home-content .text3 { /*Texto 3 sendo editado*/
     font-size: 40px;
     margin: 5px 0;
-    margin-left: -20px;
 }
 .home .home-content .text3 span { /*Aquele SPAN que comentei*/
     color: crimson;
