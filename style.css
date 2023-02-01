@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*Peguei essa fonte do google fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 * {
     margin: 0; /*Esses dois são básicos para todo ínicio de site*/
@@ -10,10 +11,10 @@
 
 
 .navbar { /*Fazendo o style da navbar*/
-    background: crimson;
+    background: rgb(0, 0, 0);
     width: 100%;
-    padding: 30px 0; 
-    font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google e , sans-serif*/
+    padding: 30px; 
+    font-family: 'Poppins', sans-serif; 
 }
 
 
@@ -22,12 +23,18 @@
     text-decoration: none;
 }
 
+.navbar .menu li a:hover { /*Isso é para fazer o style das abas da navegação*/
+    color: crimson;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .navbar .menu li { /*Isso é para tirar os - do lado das abas de navegação, está sem o "a" porque é edição apenas disso*/
     list-style: none; /*Tirar os pontos do lado*/
     display: inline-block; /*Deixar eles um do lado do outro*/
     font-size: 18px; 
     font-weight: 500; /*Não sei*/
-    margin-left: 25px; /*Espaçamento entre as fontes*/
+    margin: 10px;
 }
 
 h1 { /*Mudar o titulo*/
@@ -37,7 +44,7 @@ h1 { /*Mudar o titulo*/
 .navbar .max-width { 
     display: flex;
     align-items: center; /*Alinhar*/
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .max-width { 
@@ -50,34 +57,32 @@ h1 { /*Mudar o titulo*/
 
 .home {
     display: flex;
-    background: rgb(35, 35, 35); /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
+    background: rgb(0, 0, 0); /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
     height: 100vh;
     color: white;
     font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google*/
 
 }
 
-.home .max-width-trab {
-    margin: auto 0 auto 40px; /*Alinhar o texto*/
+.home .max-width {
+    margin: auto; /*Alinhar o texto*/
     width: 100%;
-
+    height: 65%;
 }
+    
 
-.home .home-content {
-    margin-left: 5%;
-    width: 100%;
-    margin-bottom: 15%;
-}
-
-.home .home-content .text1 { /*Texto 1 sendo editado*/
-    font-size: 25px;
-}
 .home .home-content .text2 { /*Texto 2 sendo editado*/
-    font-size: 75px;
+    font-size: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .home .home-content .text3 { /*Texto 3 sendo editado*/
-    font-size: 40px;
-    margin: 5px 0;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .home .home-content .text3 span { /*Aquele SPAN que comentei*/
     color: crimson;
@@ -346,13 +351,6 @@ h1 { /*Mudar o titulo*/
     }
 
     
-    .home .home-content .text1 { /*Texto 1 sendo editado*/
-        font-size: 25px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-left: 2%;
-    }
     .home .home-content .text2 { /*Texto 2 sendo editado*/
         font-size: 50px;
         display: flex;
