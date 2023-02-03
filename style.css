@@ -413,7 +413,8 @@ h1 { /*Mudar o titulo*/
     }
     
     .about .about-content .right p {
-        text-align: justify;
+        text-align: start;
+        font-size: 15px;
     }
 
 
@@ -424,6 +425,10 @@ h1 { /*Mudar o titulo*/
 
     .skills .skills-content {
         width: 100%;
+    }
+    
+    .skills .skills-content p {
+        font-size: 15px;
     }
 
     .skills .title { /*Dá uma olhada lá*/
