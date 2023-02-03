@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0; /*Esses dois são básicos para todo ínicio de site*/
     padding: 0;
@@ -61,7 +65,6 @@ h1 { /*Mudar o titulo*/
     height: 100vh;
     color: white;
     font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google*/
-
 }
 
 .home .max-width {
@@ -84,7 +87,30 @@ h1 { /*Mudar o titulo*/
     align-items: center;
     justify-content: center;
 }
+
 .home .home-content .text3 span { /*Aquele SPAN que comentei*/
+    color: crimson;
+}
+
+.home .home-content .explore {
+    width: 100px;
+    height: 40px;
+}
+
+.home .home-content .butao {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-content button {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.home .home-content button:hover {
     color: crimson;
 }
 
@@ -364,6 +390,13 @@ h1 { /*Mudar o titulo*/
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+
+    .home .home-content .explore {
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 2%;
     }
 
 
