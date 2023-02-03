@@ -314,6 +314,7 @@ h1 { /*Mudar o titulo*/
     text-decoration: underline;
     text-underline-offset: 4px;
     cursor: pointer;
+    color: black;
 }
 
 .contact .contact-content a:hover {
@@ -495,6 +496,16 @@ h1 { /*Mudar o titulo*/
         border: 4px solid rgb(43, 43, 43);
     }
     
+    
+    .contact .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .contact .contact-content a {
+        padding: 3%;
+    }
     
 }
