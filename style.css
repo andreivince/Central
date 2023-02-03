@@ -514,3 +514,23 @@ h1 { /*Mudar o titulo*/
     }
     
 }
+
+@media screen and (max-width: 400px) {
+    .home .home-content .text2 { /*Texto 2 sendo editado*/
+        font-size: 30px;
+    }
+   
+    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home .home-content .text2 { /*Texto 2 sendo editado*/
+        font-size: 23px;
+    }
+   
+    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+        font-size: 10px;
+    }
+}
