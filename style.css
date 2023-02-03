@@ -108,6 +108,7 @@ h1 { /*Mudar o titulo*/
     font-family: 'Poppins', sans-serif; 
     font-size: 15px;
     cursor: pointer;
+    color: black;
 }
 
 .home .home-content button:hover {
