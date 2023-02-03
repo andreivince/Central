@@ -3,5 +3,5 @@ function myFunction() {
     var copyText = document.getElementById("click");
   
     navigator.clipboard.writeText("andreivince21@gmail.com")
-    alert("Copy on clipboard")
+    alert("Copied onto clipboard")
 }
