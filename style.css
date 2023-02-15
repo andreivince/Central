@@ -174,7 +174,7 @@ h1 { /*Mudar o titulo*/
 }
 
 .about .about-content .right p {
-    text-align: justify;
+    text-align: start;
 }
 
 /*Skills Start*/
