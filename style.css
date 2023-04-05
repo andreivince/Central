@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*Peguei essa fonte do google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
@@ -7,14 +7,14 @@ html {
 }
 
 * {
-    margin: 0; /*Esses dois são básicos para todo ínicio de site*/
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
 
-.navbar { /*Fazendo o style da navbar*/
+.navbar { 
     background: rgb(0, 0, 0);
     width: 100%;
     padding: 30px; 
@@ -22,32 +22,32 @@ html {
 }
 
 
-.navbar .menu li a { /*Isso é para fazer o style das abas da navegação*/
+.navbar .menu li a { 
     color: white;
     text-decoration: none;
 }
 
-.navbar .menu li a:hover { /*Isso é para fazer o style das abas da navegação*/
+.navbar .menu li a:hover { 
     color: crimson;
     text-decoration: underline;
     text-underline-offset: 3px;
 }
 
-.navbar .menu li { /*Isso é para tirar os - do lado das abas de navegação, está sem o "a" porque é edição apenas disso*/
-    list-style: none; /*Tirar os pontos do lado*/
-    display: inline-block; /*Deixar eles um do lado do outro*/
+.navbar .menu li { 
+    list-style: none; 
+    display: inline-block; 
     font-size: 18px; 
-    font-weight: 500; /*Não sei*/
+    font-weight: 500; 
     margin: 10px;
 }
 
-h1 { /*Mudar o titulo*/
+h1 { 
     color: white;
 }
 
 .navbar .max-width { 
     display: flex;
-    align-items: center; /*Alinhar*/
+    align-items: center; 
     justify-content: center;
 }
 
@@ -61,34 +61,34 @@ h1 { /*Mudar o titulo*/
 
 .home {
     display: flex;
-    background: rgb(0, 0, 0); /*Imagem do banner (construido no canva), sempre coloque "no-repeat"*/
+    background: rgb(0, 0, 0); 
     height: 100vh;
     color: white;
-    font-family: 'Poppins', sans-serif; /*A fonte que pegou do Google*/
+    font-family: 'Poppins', sans-serif; 
 }
 
 .home .max-width {
-    margin: auto; /*Alinhar o texto*/
+    margin: auto; 
     width: 100%;
     height: 65%;
 }
     
 
-.home .home-content .text2 { /*Texto 2 sendo editado*/
+.home .home-content .text2 { 
     font-size: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home .home-content .text3 { /*Texto 3 sendo editado*/
+.home .home-content .text3 { 
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home .home-content .text3 span { /*Aquele SPAN que comentei*/
+.home .home-content .text3 span { 
     color: crimson;
 }
 
@@ -115,27 +115,26 @@ h1 { /*Mudar o titulo*/
     color: crimson;
 }
 
-/*AGORA VAI COMEÇAR O STYLE DO ABOUT*/
 
-.about { /*Espaçamento SEMPRE*/
+.about { 
     padding: 100px 0;
 }
 
 .about{
     font-family: 'Poppins', sans-serif;
 }
-.about .title { /*Dá uma olhada lá*/
+.about .title { 
     position: relative;
     font-family:'Bebas Neue', cursive;  
     text-align: center;
     margin-bottom: 40px;
     font-weight: 500;
-    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    padding-bottom: 20px; 
     font-size: 45px;
 }
 
 
-.about .title::before { /*Linhas em cima da palavra*/
+.about .title::before { 
     content: "";
     position: absolute;
     width: 180px;
@@ -146,7 +145,6 @@ h1 { /*Mudar o titulo*/
     transform: translateX(-50%);
 }
 
-/*Alinhas as coisas*/
 .about .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -160,7 +158,7 @@ h1 { /*Mudar o titulo*/
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px; /*Fazer a borda*/
+    border-radius: 6px; 
     
 }
 .about .about-content .right {
@@ -177,22 +175,21 @@ h1 { /*Mudar o titulo*/
     text-align: start;
 }
 
-/*Skills Start*/
 
 .skills, .contact{
     font-family: 'Poppins', sans-serif;
 }
-.skills .title { /*Dá uma olhada lá*/
+.skills .title { 
     position: relative;
     font-family:'Bebas Neue', cursive;  
     text-align: center;
     margin-bottom: 40px;
     font-weight: 500;
-    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    padding-bottom: 20px; 
     font-size: 45px;
 }
 
-.skills .title::before { /*Linhas em cima da palavra*/
+.skills .title::before { 
     content: "";
     position: absolute;
     width: 180px;
@@ -237,18 +234,17 @@ h1 { /*Mudar o titulo*/
 }
 
 
-/*Contact Me*/
-.contact .title { /*Dá uma olhada lá*/
+.contact .title { 
     position: relative;
     font-family:'Bebas Neue', cursive;  
     text-align: center;
     margin-bottom: 40px;
     font-weight: 500;
-    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    padding-bottom: 20px; 
     font-size: 40px;
 }
 
-.contact .title::before { /*Linhas em cima da palavra*/
+.contact .title::before { 
     content: "";
     position: absolute;
     width: 180px;
@@ -258,24 +254,21 @@ h1 { /*Mudar o titulo*/
     background: #111;
     transform: translateX(-50%);
 }
-/*Isso tudo para stylish o formulario*/
 
 .contact .max-width-trab {
     width: 100%;
 }
 
-
-/*Projects*/
-.trabalhos .title { /*Dá uma olhada lá*/
+.trabalhos .title { 
     position: relative;
     font-family:'Bebas Neue', cursive;  
     text-align: center;
     margin-bottom: 40px;
     font-weight: 500;
-    padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+    padding-bottom: 20px; 
     font-size: 40px;
 }
-.trabalhos .title::before { /*Linhas em cima da palavra*/
+.trabalhos .title::before { 
     content: "";
     position: absolute;
     width: 180px;
@@ -322,7 +315,6 @@ h1 { /*Mudar o titulo*/
     color: crimson;
 }
 
-/*Responsive Media*/
 
 @media screen and (max-width: 700px) {
 
@@ -362,7 +354,7 @@ h1 { /*Mudar o titulo*/
     }
 
     
-    .home .home-content .text2 { /*Texto 2 sendo editado*/
+    .home .home-content .text2 { 
         font-size: 30px;
         display: flex;
         align-items: center;
@@ -372,7 +364,7 @@ h1 { /*Mudar o titulo*/
         overflow: visible;
     }
    
-    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+    .home .home-content .text3 span{ 
         margin-left: 0px;
         font-size: 17px;
         display: flex;
@@ -432,17 +424,17 @@ h1 { /*Mudar o titulo*/
         font-size: 15px;
     }
 
-    .skills .title { /*Dá uma olhada lá*/
+    .skills .title { 
         position: relative;
         font-family:'Bebas Neue', cursive;  
         text-align: center;
         margin-bottom: 40px;
         font-weight: 500;
-        padding-bottom: 20px; /*Espaçamento entre a barra e a palavra*/
+        padding-bottom: 20px;
         font-size: 42px;
     }
     
-    .skills .title::before { /*Linhas em cima da palavra*/
+    .skills .title::before { 
         content: "";
         position: absolute;
         width: 180px;
@@ -517,21 +509,21 @@ h1 { /*Mudar o titulo*/
 }
 
 @media screen and (max-width: 400px) {
-    .home .home-content .text2 { /*Texto 2 sendo editado*/
+    .home .home-content .text2 { 
         font-size: 30px;
     }
    
-    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+    .home .home-content .text3 span{ 
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .home .home-content .text2 { /*Texto 2 sendo editado*/
+    .home .home-content .text2 { 
         font-size: 23px;
     }
    
-    .home .home-content .text3 span{ /*Texto 3 sendo editado*/
+    .home .home-content .text3 span{ 
         font-size: 10px;
     }
 }
