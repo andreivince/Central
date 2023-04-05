@@ -18,7 +18,6 @@ html {
     background: rgb(0, 0, 0);
     width: 100%;
     padding: 30px; 
-    font-family: 'Poppins', sans-serif; 
 }
 
 
@@ -259,6 +258,10 @@ h1 {
     width: 100%;
 }
 
+.trabalhos .max-width-trab {
+    width: 100%;
+
+}
 .trabalhos .title { 
     position: relative;
     font-family:'Bebas Neue', cursive;  
@@ -279,14 +282,17 @@ h1 {
     transform: translateX(-50%);
 }
 .trabalhos .content-trabalhos img {
-    max-width: 600px;
+    max-width: 630px;
     max-height: 550px;
     width: auto;
     height: auto;
 }
+
 .trabalhos .content-trabalhos .links{
-    margin: 15px;
+    margin-top: 0px;
     border: 4px solid rgb(43, 43, 43);
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .trabalhos .max-width-trab .content-trabalhos {
@@ -294,6 +300,14 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.trabalhos .content-trabalhos .project_solo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif; 
+
 }
 
 .contact .contact-content {
