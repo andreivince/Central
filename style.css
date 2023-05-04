@@ -155,7 +155,7 @@ h1 {
     width: 45%;
 }
 .about .about-content .left img {
-    height: 400px;
+    height: 550px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px; 
@@ -459,9 +459,10 @@ h1 {
         justify-content: center;
     }
 
+    
     .about .about-content .left .foto {
         width: 200px;
-        height: 200px;
+        height: 100%;
     }
 
     .about .about-content .left{
