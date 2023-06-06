@@ -334,7 +334,7 @@ h1 {
     width: 502px;
     z-index: 2;
     font-family: 'Poppins', sans-serif;
-    margin-left: -7%;
+    margin-left: -3%;
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -351,7 +351,7 @@ h1 {
     display: flex;
     border: 4px solid rgb(43, 43, 43);    
     position: relative;
-    margin-right: 70px;
+    margin: 0px;
 }
 
 .trabalhos .project_solo {
