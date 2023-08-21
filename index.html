@@ -20,7 +20,7 @@
             <ul class="menu"> <!--Começar a fazer as abas de navegação, "ul" é lista de itens-->
                 <li><a href="#home">home</a></li> <!--Isso é as abas de navegação-->
                 <li><a href="#about">about</a></li> <!--Se não tiver uma aba falando disso apenas coloque a #-->
-                <li><a href="#skills">skills</a></li>
+                <li><a href="#work">work</a></li>
                 <li><a href="#contact">contact</a></li>
 
             </ul>
@@ -33,7 +33,7 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text2">Andrei Vince</div>
-                <div class="text3"><span>Software / Web Developer</span></div> <!--Esse span é para deixar a palavra do meio em outra cor-->
+                <div class="text3"><span>Programmer & Engineer</span></div> <!--Esse span é para deixar a palavra do meio em outra cor-->
                 <div class="butao">
                     <button class="explore" id="myBtn" onClick="document.getElementById('about').scrollIntoView();"  >Explore</button>
                 </div>
@@ -45,7 +45,7 @@
 
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About me</h2>
+            <h2 class="title-all">About me</h2>
             <div class="about-content">
                 <div class="column left"> <!--Deixar a coluna pro lado-->
                     <img src="./Assets/AndreiCEO.jpg" class="foto"> <!--Clica ./ e depois escolhe as opções-->
@@ -53,54 +53,37 @@
                 <div class="column right">
                     <div class="text">Who am I?</div>
                     <p>As a programmer, I am passionate and confident about my ability to solve problems and develop new technologies. I am enthusiastic about contributing to projects that have the potential to make a significant, long-term impact, while also enabling me to increase my knowledge. My goal is to continually enhance my expertise and to be a valuable asset to a company in addressing its needs.</p>
+                    <div class="skills-content">
+                        <div class="area-skills">
+                            <div class="languages">
+                                <div class="text1">Languages</div>
+        
+                                <li>
+                                    <a>Javascript</a>
+                                </li>
+                                <li>
+                                    <a>Python</a>
+                                </li>
+                                <li>
+                                    <a>HTML & CSS</a>
+                                <li>
+                                    <a>SQL</a>
+                                </li>
+                                <li>
+                                    <a>Swift UI</a>
+                                </li>
+                            </div>
+                            <div class="others">
+                                <div class="text2">Others</div>
+                                <li> <a>React.js</a> </li>
+                            <li> <a>Flask</a> </li>
+                            <li> <a>Bootstrap</a> </li>
+                            </div>
+        
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-    
-    <!--Skills-->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">Skills</h2>
-            <div class="skills-content">
-                <div class="column-left"> <!--Deixar a coluna pro lado-->
-                    <div class="text1">My Experience</div>
-                    <p>Experience of 2 years in programming</p>
-                    <p>Fluent in English and Portuguese</p>
-                    <p>Certificate on the best startup education program in Brazil</p>
-                </div>
-                <div class="column right">
-                    <div class="text1">Languages</div>
-                    <li>
-                        <a>Javascript</a>
-                    </li>
-                    <li>
-                        <a>Python</a>
-                    </li>
-                    <li>
-                        <a>HTML & CSS</a>
-                    <li>
-                        <a>SQL</a>
-                    </li>
-                    <li>
-                        <a>Swift UI</a>
-                    </li>
-                    <br>
-                    <div class="text1">Others</div>
                 
-                    <li> <a>React.js</a> </li>
-                    <li> <a>Flask</a> </li>
-                    <li> <a>Bootstrap</a> </li>
-
-                </div>
             </div>
         </div>
     </section>
@@ -109,6 +92,25 @@
     <br>
     <br>
     <br>
+    <section class="work" id="work">
+        <div class="max-width-trab">
+            <h2 class="title-all">Work Experience</h2>
+            <div class="works">
+                <div class="content-trabalhos">
+                    <div class="project_solo">
+                        <a href="" class="title-project">YourStudent App</a>
+                        <p class="project-skills">Swift UI / Firebase</p>
+                        <div class="img-desc">
+                            <video class="links-video" height="500px" controls>
+                                <source src="./Assets/SimulatorYourStudent.mp4" type="video/mp4">
+                            </video>
+                            <p class="project-des">Created an iOS app for YourStudent that received a 5-star rating on the Apple Store. Used Swift UI and Firebase to design a user-friendly app with real-time notifications. Developed an article reader platform and admin module for administrators to post articles. Added visuals, titles, and content to increase user engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <br>
     <br>
     <br>
@@ -116,7 +118,7 @@
     <br>
     <section class="trabalhos">
         <div class="max-width-trab">
-            <h2 class="title">Projects</h2>
+            <h2 class="title-all">Projects</h2>
             <div class="content-trabalhos">
                 <div class="project_solo">
                     <a href="" class="title-project">ShareRecipe</a>
@@ -126,16 +128,7 @@
                         <p class="project-des">RecipeShare is a web app that enables users to upload, share, and discover new recipes. Users can create an account, upload their recipes to a database, and search through the recipes to find the ones they want.</p>
                     </div>
                 </div>
-                <div class="project_solo">
-                    <a href="" class="title-project">Article App</a>
-                    <p class="project-skills">Swift UI / Firebase</p>
-                    <div class="img-desc">
-                        <video class="links-video" height="500px" controls>
-                            <source src="./Assets/SimulatorYourStudent.mp4" type="video/mp4">
-                        </video>
-                        <p class="project-des">This is an app built with Swift UI and Firebase, inspired by the website yourstudent.com. The app is an article reader, where users can receive notifications and read articles. Additionally, users with admin accounts can post articles that include a title, image, and content.</p>
-                    </div>
-                </div>
+
                 <div class="project_solo">
                     <a href="" class="title-project">Predicting Student Grades</a>
                     <p class="project-skills">Python / Machine Learning</p>
@@ -209,7 +202,7 @@
 
     <section class="contact" id="contact">
         <div class="max-width-trab">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title-all">Contact me</h2>
             <div class="contact-content">
                 <a href="https://www.linkedin.com/in/andreivince/"><img src="./Assets/LinkedIn_logo_initials.png" class="linkedin" alt="" width="200"></a>
                 <a href="https://github.com/andreivince"><img src="./Assets/GitHub-logo.png" class="github" alt="" width="200"></a>
