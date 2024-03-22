@@ -1,224 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AndreiVince</title>
 
-    <link rel="stylesheet" href="style.css"> <!--"link: css" e CRTL segurando click, para criar a parte de CSS-->
-    <link rel="icon" type="image/png" href="./Assets/AV_logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <!--"link: css" e CRTL segurando click, para criar a parte de CSS-->
+    <link rel="icon" type="image/png" href="./Assets/AV_logo.png" />
 
-    <meta name="theme-color" content="#ffffff">    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> <!--Não sei copiei do vídeo-->
-
-
-</head>
-<body>
-
-    <nav class="navbar"> <!--Para começar a navegação-->
-        <div class="max-width">
-            <ul class="menu"> <!--Começar a fazer as abas de navegação, "ul" é lista de itens-->
-                <li><a href="#home">home</a></li> <!--Isso é as abas de navegação-->
-                <li><a href="#about">about</a></li> <!--Se não tiver uma aba falando disso apenas coloque a #-->
-                <li><a href="#work">work</a></li>
-                <li><a href="#contact">contact</a></li>
-
-            </ul>
-        </div>
+    <meta name="theme-color" content="#ffffff" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Não sei copiei do vídeo-->
+  </head>
+  <body>
+    <nav class="navbar">
+      <!--Para começar a navegação-->
+      <div class="max-width">
+        <ul class="menu">
+          <!--Começar a fazer as abas de navegação, "ul" é lista de itens-->
+          <li><a href="#home">home</a></li>
+          <!--Isso é as abas de navegação-->
+          <li><a href="#about">about</a></li>
+          <!--Se não tiver uma aba falando disso apenas coloque a #-->
+          <li><a href="#work">work</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
     </nav>
-    
-        <!--AGORA COMEÇA A HOMEEEEE-->
 
-    <section class="home" id="home"> <!--Colocar o resto sem ser a navbar, HOME-->
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text2">Andrei Vince</div>
-                <div class="text3"><span>Programmer & Engineer</span></div> <!--Esse span é para deixar a palavra do meio em outra cor-->
-                <div class="butao">
-                    <button class="explore" id="myBtn" onClick="document.getElementById('about').scrollIntoView();"  >Explore</button>
-                </div>
-            </div>
+    <!--AGORA COMEÇA A HOMEEEEE-->
+
+    <section class="home" id="home">
+      <!--Colocar o resto sem ser a navbar, HOME-->
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text2">Andrei Vince</div>
+          <div class="text3"><span>Programmer & Engineer</span></div>
+          <!--Esse span é para deixar a palavra do meio em outra cor-->
+          <div class="butao">
+            <button
+              class="explore"
+              id="myBtn"
+              onClick="document.getElementById('about').scrollIntoView();"
+            >
+              Explore
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
-        <!--AGORA COMEÇA A ABOUT-->
+    <!--AGORA COMEÇA A ABOUT-->
 
     <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title-all">About me</h2>
-            <div class="about-content">
-                <div class="column left"> <!--Deixar a coluna pro lado-->
-                    <img src="./Assets/AndreiCEO.jpg" class="foto"> <!--Clica ./ e depois escolhe as opções-->
+      <div class="max-width">
+        <h2 class="title-all">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <!--Deixar a coluna pro lado-->
+            <img src="./Assets/AndreiCEO.jpg" class="foto" />
+            <!--Clica ./ e depois escolhe as opções-->
+          </div>
+          <div class="column right">
+            <div class="text">Who am I?</div>
+            <p>
+              As an avid AI enthusiast and software engineer, I am deeply
+              passionate and exceptionally confident in my problem-solving
+              skills and capacity to innovate. I am highly enthusiastic about
+              actively contributing to projects that carry the potential to
+              create a substantial and enduring impact, all the while nurturing
+              my thirst for knowledge. My overarching objective is to
+              consistently elevate my skills and become an indispensable asset
+              to any organization by effectively addressing its requirements.
+            </p>
+            <div class="skills-content">
+              <div class="area-skills">
+                <div class="languages">
+                  <div class="text1">Languages</div>
+
+                  <li>
+                    <a>Javascript</a>
+                  </li>
+                  <li>
+                    <a>Python</a>
+                  </li>
+                  <li>
+                    <a>HTML & CSS</a>
+                  </li>
+
+                  <li>
+                    <a>SQL</a>
+                  </li>
+                  <li>
+                    <a>Swift UI</a>
+                  </li>
                 </div>
-                <div class="column right">
-                    <div class="text">Who am I?</div>
-                    <p>As a programmer, I am passionate and confident about my ability to solve problems and develop new technologies. I am enthusiastic about contributing to projects that have the potential to make a significant, long-term impact, while also enabling me to increase my knowledge. My goal is to continually enhance my expertise and to be a valuable asset to a company in addressing its needs.</p>
-                    <div class="skills-content">
-                        <div class="area-skills">
-                            <div class="languages">
-                                <div class="text1">Languages</div>
-        
-                                <li>
-                                    <a>Javascript</a>
-                                </li>
-                                <li>
-                                    <a>Python</a>
-                                </li>
-                                <li>
-                                    <a>HTML & CSS</a>
-                                <li>
-                                    <a>SQL</a>
-                                </li>
-                                <li>
-                                    <a>Swift UI</a>
-                                </li>
-                            </div>
-                            <div class="others">
-                                <div class="text2">Others</div>
-                                <li> <a>React.js</a> </li>
-                            <li> <a>Flask</a> </li>
-                            <li> <a>Bootstrap</a> </li>
-                            </div>
-        
-                        </div>
-                    </div>
+                <div class="others">
+                  <div class="text2">Others</div>
+                  <li><a>React.js</a></li>
+                  <li><a>Flask</a></li>
+                  <li><a>Bootstrap</a></li>
+                  <li><a>React Native</a></li>
                 </div>
-                
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <section class="work" id="work">
-        <div class="max-width-trab">
-            <h2 class="title-all">Work Experience</h2>
-            <div class="works">
-                <div class="content-trabalhos">
-                    <div class="project_solo">
-                        <a href="" class="title-project">YourStudent App</a>
-                        <p class="project-skills">Swift UI / Firebase</p>
-                        <div class="img-desc">
-                            <video class="links-video" height="500px" controls>
-                                <source src="./Assets/SimulatorYourStudent.mp4" type="video/mp4">
-                            </video>
-                            <p class="project-des">Created an iOS app for YourStudent that received a 5-star rating on the Apple Store. Used Swift UI and Firebase to design a user-friendly app with real-time notifications. Developed an article reader platform and admin module for administrators to post articles. Added visuals, titles, and content to increase user engagement.</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="max-width-trab">
+        <h2 class="title-all">Work Experience</h2>
+        <div class="works">
+          <div class="content-trabalhos">
+            <div class="project_solo">
+              <a href="" class="title-project">Iscicle</a>
+              <p class="project-skills">Software Developer Internship</p>
+              <p class="project-skills">(January 2024 - April 2024)</p>
+
+              <p class="project-skills">React Native / Prisma</p>
+              <div class="img-desc">
+                <img src="./Assets/iscicle_logo.jpeg" height="300px" />
+
+                <p class="project-des">
+                  I developed and implemented cross-platform solutions using
+                  React Native, ensuring a consistent user experience on Android
+                  and iOS devices. By applying user-centric design principles, I
+                  created an intuitive and engaging mobile app experience. I
+                  also navigated and resolved challenges related to
+                  cross-platform compatibility, ensuring optimal performance
+                  across various devices.
+                </p>
+              </div>
             </div>
+            <div class="project_solo">
+              <a href="" class="title-project">YourStudent</a>
+              <p class="project-skills">Software Engineer</p>
+              <p class="project-skills">(2023 - 2024)</p>
+
+              <p class="project-skills">Swift UI / Firebase</p>
+
+              <div class="img-desc">
+                <video class="links-video" height="500px" controls>
+                  <source
+                    src="./Assets/SimulatorYourStudent.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                <p class="project-des">
+                  Created an iOS app for YourStudent that received a 5-star
+                  rating on the Apple Store. Used Swift UI and Firebase to
+                  design a user-friendly app with real-time notifications.
+                  Developed an article reader platform and admin module for
+                  administrators to post articles. Added visuals, titles, and
+                  content to increase user engagement.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <section class="trabalhos">
-        <div class="max-width-trab">
-            <h2 class="title-all">Projects</h2>
-            <div class="content-trabalhos">
-                <div class="project_solo">
-                    <a href="https://share-recipe.onrender.com/login?next=%2F" class="title-project">ShareRecipe</a>
-                    <p class="project-skills">Flask / Python</p>
-                    <div class="img-desc">
-                        <a href="https://share-recipe.onrender.com/login?next=%2F"><img src="./Assets/Share.png" class="links" height="300px"></a>
-                        <p class="project-des">RecipeShare is a web app that enables users to upload, share, and discover new recipes. Users can create an account, upload their recipes to a database, and search through the recipes to find the ones they want.</p>
-                    </div>
-                </div>
-
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/Machine_Learning_Grades/" class="title-project">Predicting Student Grades</a>
-                    <p class="project-skills">Python / Machine Learning</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/Machine_Learning_Grades/"><img src="./Assets/machine.png" class="links" height="300px"></a>
-                        <p class="project-des">This code uses a linear regression model from the scikit-learn machine learning library to predict students' grades based on their grades on two exams, absences, failures, and study time.</p>
-                    </div>
-                </div>
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/Neural-Networks" class="title-project">Classification Neural Network</a>
-                    <p class="project-skills">Python / Machine Learning</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/Neural-Networks"><img src="./Assets/Neural.png" class="links" height="300px"></a>
-                        <p class="project-des">This code trains a fashion image classification model using TensorFlow and tf.keras. It loads the Fashion MNIST dataset, preprocesses the data, defines a sequential model, compiles it, trains the model, predicts labels for test images, and visualizes the results.</p>
-                    </div>
-                </div>
-                <div class="project_solo">
-                    <a href="https://andreivince.github.io/Red-Ventures/" class="title-project">Landing Page</a>
-                    <p class="project-skills">HTML / CSS</p>
-                    <div class="img-desc">
-                        <a href="https://andreivince.github.io/Red-Ventures/"><img src="./Assets/Screenshot 2022-12-08 at 2.34.37 PM.png" class="links" height="300px"></a>
-                        <p class="project-des">This is a landing page I created for practice using CSS and HTML for the company Red Ventures. Its purpose is to direct users to the official website. This landing page is intended to showcase my skills in CSS and design.</p>
-                    </div>
-                </div>
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/Face_Detects/" class="title-project">Face Recognition</a>
-                    <p class="project-skills">Python</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/Face_Detects/"><img src="./Assets/face_detects.png" class="links" height="300px"></a>
-                        <p class="project-des">This is a face recognition software that can detect the user's face. I used cv2 to apply the necessary code to detect the user's camera. You can use your phone or computer's camera to utilize this software.</p>
-                    </div>
-                </div>
-
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/To-do-List/" class="title-project">To-do List</a>
-                    <p class="project-skills">JavaScript / HTML / CSS</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/To-do-List/"><img src="./Assets/To-do List.png" class="links" height="300px"></a>
-                        <p class="project-des">This is a to-do list created using JavaScript, HTML, and CSS. You can add tasks throughout the day, delete them, or check them off once completed.</p>
-                    </div>
-                </div>
-
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/Personal_Chef_Python/" class="title-project">Personal Chef</a>
-                    <p class="project-skills">Python / Database</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/Personal_Chef_Python/"><img src="./Assets/Personal_chef.png" class="links" height="300px"></a>
-                        <p class="project-des">This is a personal chef software that uses Python and a database to help you in the kitchen. You can add recipes to the database and search for recipes that match the ingredients you have at home.</p>
-                    </div>
-                </div>
-
-                <div class="project_solo">
-                    <a href="https://github.com/andreivince/Pok-dex/" class="title-project">Pokedex</a>
-                    <p class="project-skills">React.js</p>
-                    <div class="img-desc">
-                        <a href="https://github.com/andreivince/Pok-dex/"><img src="./Assets/Pokedex.png" class="links" height="300px"></a>
-                        <p class="project-des">This is a Pokedex created using React.js (JavaScript, HTML, and CSS). It allows you to browse the names of all existing Pokemon through a Pokemon API.</p>
-                    </div>
-                </div>
-
+      <div class="max-width-trab">
+        <h2 class="title-all">Projects</h2>
+        <div class="content-trabalhos">
+          <div class="project_solo">
+            <a
+              href="https://share-recipe.onrender.com/login?next=%2F"
+              class="title-project"
+              >ShareRecipe</a
+            >
+            <p class="project-skills">Flask / Python</p>
+            <div class="img-desc">
+              <a href="https://share-recipe.onrender.com/login?next=%2F"
+                ><img src="./Assets/Share.png" class="links" height="300px"
+              /></a>
+              <p class="project-des">
+                RecipeShare is a web app that enables users to upload, share,
+                and discover new recipes. Users can create an account, upload
+                their recipes to a database, and search through the recipes to
+                find the ones they want.
+              </p>
             </div>
+          </div>
 
-        </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-
-
-    <section class="contact" id="contact">
-        <div class="max-width-trab">
-            <h2 class="title-all">Contact me</h2>
-            <div class="contact-content">
-                <a href="https://www.linkedin.com/in/andreivince/"><img src="./Assets/LinkedIn_logo_initials.png" class="linkedin" alt="" width="200"></a>
-                <a href="https://github.com/andreivince"><img src="./Assets/GitHub-logo.png" class="github" alt="" width="200"></a>
-                <a onclick="myFunction()" id="click"><img src="./Assets/Gmail_icon_(2020).svg.png" class="gmail"alt="" width="200"></a>
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/Machine_Learning_Grades/"
+              class="title-project"
+              >Predicting Student Grades</a
+            >
+            <p class="project-skills">Python / Machine Learning</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/Machine_Learning_Grades/"
+                ><img src="./Assets/machine.png" class="links" height="300px"
+              /></a>
+              <p class="project-des">
+                This code uses a linear regression model from the scikit-learn
+                machine learning library to predict students' grades based on
+                their grades on two exams, absences, failures, and study time.
+              </p>
             </div>
+          </div>
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/Neural-Networks"
+              class="title-project"
+              >Classification Neural Network</a
+            >
+            <p class="project-skills">Python / Machine Learning</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/Neural-Networks"
+                ><img src="./Assets/Neural.png" class="links" height="300px"
+              /></a>
+              <p class="project-des">
+                This code trains a fashion image classification model using
+                TensorFlow and tf.keras. It loads the Fashion MNIST dataset,
+                preprocesses the data, defines a sequential model, compiles it,
+                trains the model, predicts labels for test images, and
+                visualizes the results.
+              </p>
+            </div>
+          </div>
+          <div class="project_solo">
+            <a
+              href="https://andreivince.github.io/Red-Ventures/"
+              class="title-project"
+              >Landing Page</a
+            >
+            <p class="project-skills">HTML / CSS</p>
+            <div class="img-desc">
+              <a href="https://andreivince.github.io/Red-Ventures/"
+                ><img
+                  src="./Assets/Screenshot 2022-12-08 at 2.34.37 PM.png"
+                  class="links"
+                  height="300px"
+              /></a>
+              <p class="project-des">
+                This is a landing page I created for practice using CSS and HTML
+                for the company Red Ventures. Its purpose is to direct users to
+                the official website. This landing page is intended to showcase
+                my skills in CSS and design.
+              </p>
+            </div>
+          </div>
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/Face_Detects/"
+              class="title-project"
+              >Face Recognition</a
+            >
+            <p class="project-skills">Python</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/Face_Detects/"
+                ><img
+                  src="./Assets/face_detects.png"
+                  class="links"
+                  height="300px"
+              /></a>
+              <p class="project-des">
+                This is a face recognition software that can detect the user's
+                face. I used cv2 to apply the necessary code to detect the
+                user's camera. You can use your phone or computer's camera to
+                utilize this software.
+              </p>
+            </div>
+          </div>
+
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/To-do-List/"
+              class="title-project"
+              >To-do List</a
+            >
+            <p class="project-skills">JavaScript / HTML / CSS</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/To-do-List/"
+                ><img
+                  src="./Assets/To-do List.png"
+                  class="links"
+                  height="300px"
+              /></a>
+              <p class="project-des">
+                This is a to-do list created using JavaScript, HTML, and CSS.
+                You can add tasks throughout the day, delete them, or check them
+                off once completed.
+              </p>
+            </div>
+          </div>
+
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/Personal_Chef_Python/"
+              class="title-project"
+              >Personal Chef</a
+            >
+            <p class="project-skills">Python / Database</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/Personal_Chef_Python/"
+                ><img
+                  src="./Assets/Personal_chef.png"
+                  class="links"
+                  height="300px"
+              /></a>
+              <p class="project-des">
+                This is a personal chef software that uses Python and a database
+                to help you in the kitchen. You can add recipes to the database
+                and search for recipes that match the ingredients you have at
+                home.
+              </p>
+            </div>
+          </div>
+
+          <div class="project_solo">
+            <a
+              href="https://github.com/andreivince/Pok-dex/"
+              class="title-project"
+              >Pokedex</a
+            >
+            <p class="project-skills">React.js</p>
+            <div class="img-desc">
+              <a href="https://github.com/andreivince/Pok-dex/"
+                ><img src="./Assets/Pokedex.png" class="links" height="300px"
+              /></a>
+              <p class="project-des">
+                This is a Pokedex created using React.js (JavaScript, HTML, and
+                CSS). It allows you to browse the names of all existing Pokemon
+                through a Pokemon API.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <section class="contact" id="contact">
+        <div class="max-width-trab">
+          <h2 class="title-all">Contact me</h2>
+          <div class="contact-content">
+            <a href="https://www.linkedin.com/in/andreivince/"
+              ><img
+                src="./Assets/LinkedIn_logo_initials.png"
+                class="linkedin"
+                alt=""
+                width="200"
+            /></a>
+            <a href="https://github.com/andreivince"
+              ><img
+                src="./Assets/GitHub-logo.png"
+                class="github"
+                alt=""
+                width="200"
+            /></a>
+            <a onclick="myFunction()" id="click"
+              ><img
+                src="./Assets/Gmail_icon_(2020).svg.png"
+                class="gmail"
+                alt=""
+                width="200"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <br />
     </section>
-    <br>
-    </section>
-    <br> <!--Isso é para ficar em branco no final da pagina-->
-    <br>
-    <br> 
-    <br>
-    <br>
-    <br> 
-    <br>
+    <br />
+    <!--Isso é para ficar em branco no final da pagina-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
